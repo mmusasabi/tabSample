@@ -9,11 +9,9 @@
 /* Begin PBXBuildFile section */
 		1EE791191A03AA8600F059D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE791181A03AA8600F059D8 /* main.m */; };
 		1EE7911C1A03AA8600F059D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE7911B1A03AA8600F059D8 /* AppDelegate.m */; };
-		1EE7911F1A03AA8600F059D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE7911E1A03AA8600F059D8 /* ViewController.m */; };
-		1EE791221A03AA8600F059D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE791201A03AA8600F059D8 /* Main.storyboard */; };
-		1EE791241A03AA8600F059D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EE791231A03AA8600F059D8 /* Images.xcassets */; };
-		1EE791271A03AA8600F059D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EE791251A03AA8600F059D8 /* LaunchScreen.xib */; };
+		1EE7911F1A03AA8600F059D8 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE7911E1A03AA8600F059D8 /* TabViewController.m */; };
 		1EE791331A03AA8600F059D8 /* tabSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE791321A03AA8600F059D8 /* tabSampleTests.m */; };
+		1EE7913E1A03ADAD00F059D8 /* tabVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE7913D1A03ADAD00F059D8 /* tabVIew.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +30,13 @@
 		1EE791181A03AA8600F059D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1EE7911A1A03AA8600F059D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1EE7911B1A03AA8600F059D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1EE7911D1A03AA8600F059D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1EE7911E1A03AA8600F059D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1EE791211A03AA8600F059D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1EE791231A03AA8600F059D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1EE791261A03AA8600F059D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1EE7911D1A03AA8600F059D8 /* TabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
+		1EE7911E1A03AA8600F059D8 /* TabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
 		1EE7912C1A03AA8600F059D8 /* tabSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tabSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE791311A03AA8600F059D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EE791321A03AA8600F059D8 /* tabSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tabSampleTests.m; sourceTree = "<group>"; };
+		1EE7913C1A03ADAD00F059D8 /* tabVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tabVIew.h; sourceTree = "<group>"; };
+		1EE7913D1A03ADAD00F059D8 /* tabVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tabVIew.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +80,10 @@
 			children = (
 				1EE7911A1A03AA8600F059D8 /* AppDelegate.h */,
 				1EE7911B1A03AA8600F059D8 /* AppDelegate.m */,
-				1EE7911D1A03AA8600F059D8 /* ViewController.h */,
-				1EE7911E1A03AA8600F059D8 /* ViewController.m */,
-				1EE791201A03AA8600F059D8 /* Main.storyboard */,
-				1EE791231A03AA8600F059D8 /* Images.xcassets */,
-				1EE791251A03AA8600F059D8 /* LaunchScreen.xib */,
+				1EE7911D1A03AA8600F059D8 /* TabViewController.h */,
+				1EE7911E1A03AA8600F059D8 /* TabViewController.m */,
+				1EE7913C1A03ADAD00F059D8 /* tabVIew.h */,
+				1EE7913D1A03ADAD00F059D8 /* tabVIew.m */,
 				1EE791161A03AA8600F059D8 /* Supporting Files */,
 			);
 			path = tabSample;
@@ -199,9 +195,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EE791221A03AA8600F059D8 /* Main.storyboard in Resources */,
-				1EE791271A03AA8600F059D8 /* LaunchScreen.xib in Resources */,
-				1EE791241A03AA8600F059D8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +212,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EE7911F1A03AA8600F059D8 /* ViewController.m in Sources */,
+				1EE7911F1A03AA8600F059D8 /* TabViewController.m in Sources */,
 				1EE7911C1A03AA8600F059D8 /* AppDelegate.m in Sources */,
+				1EE7913E1A03ADAD00F059D8 /* tabVIew.m in Sources */,
 				1EE791191A03AA8600F059D8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,25 +236,6 @@
 			targetProxy = 1EE7912D1A03AA8600F059D8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1EE791201A03AA8600F059D8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1EE791211A03AA8600F059D8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1EE791251A03AA8600F059D8 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1EE791261A03AA8600F059D8 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1EE791341A03AA8600F059D8 /* Debug */ = {

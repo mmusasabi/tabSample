@@ -6,10 +6,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface tabVIew : UIButton
 
-@property (strong, nonatomic) UIWindow *window;
-
+- (id)initWithFrame:(CGRect)frame:(int)tabId:(NSString*)tabLabelName;
 
 @end
-

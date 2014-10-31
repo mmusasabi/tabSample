@@ -1,12 +1,11 @@
 //
-//  AppDelegate.m
-//  tabSample
-//
-//  Created by 川又康平 on 2014/10/31.
+//  Created by mmusasabi on 2014/10/31.
 //  Copyright (c) 2014年 mmusasabi. All rights reserved.
 //
 
+
 #import "AppDelegate.h"
+#import "TabViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +16,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //NSLog(@"in AppDelegate-application");
+
+    self.window =[[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+        
+    self.window.rootViewController =[[TabViewController alloc]init];
+    
+    [self.window makeKeyAndVisible];    
+    
     return YES;
 }
 
